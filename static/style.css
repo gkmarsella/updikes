@@ -1,0 +1,62 @@
+body {
+	background-color: #000000;
+	padding: 0px;
+	margin: 0px;
+}
+
+#map-box {
+	display: flex;
+	padding-left: 5%;
+}
+
+#logo {
+	padding: 2%;
+}
+
+#information {
+	width: 520px;
+	height: 400px;
+	background-color: white;
+	color: black;
+}
+
+#bg {
+	position: fixed; 
+	top: -50%; 
+	left: -50%; 
+	width: 200%; 
+	height: 200%;
+	z-index: -1;
+	opacity: 1.1;
+	filter: alpha(opacity=40);
+	background-color: #000;
+}
+#bg img {
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	right: 0; 
+	bottom: 0; 
+	margin: auto; 
+	min-width: 50%;
+	min-height: 50%;
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+}
+
+#content {
+    position: relative;
+    z-index: 50;
+    width: 90%;
+    height: 90%;
+    background: #eae4c9 url(../images/backgrounds/content.png) repeat-x;
+    opacity: 0.95;
+    color: #494238;
+    padding-top: 64px;
+    padding-left: 62px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+    font-size: 95%;
+    line-height: 1.2em;
+    margin-left: 6%;
+ }
